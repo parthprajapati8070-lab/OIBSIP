@@ -1,24 +1,24 @@
-# BMI Calculator
+# Password Generator
 
-This the python-based BMI calculator developed as the part of oasis intership program.
+A simple Python-based password generator developed as part of the Oasis Infobyte Internship Program.
 
 ## Features
-- Calculate BMI using weight and height
-- Supports:
-  - Height in meters
-  - Height in feet & inches
-- Converts feet/inches into meters
-- Displays BMI category
-- Handles invalid inputs
+
+- Generate random passwords
+- User-defined password length
+- Option to include special characters
+- Password length validation
+- Easy-to-use command-line interface
 
 ## Technologies Used
+
 - Python
+- random module
+- string module
 
-## BMI Categories
-- Underweight
-- Healthy
-- Overweight
-- High BMI
+## How to Run
 
-## Author
-Parth Prajapati
+1. Run the Python file.
+2. Enter password length.
+3. Choose whether to include special characters.
+4. View the generated password.
