@@ -9,7 +9,7 @@ if city_name.strip() == "":
     print("City name cannot be empty.")
     exit()
 
-api_key = "4d744d2a5fe52a227328a8fcc32f36f1"
+api_key = "YOUR_API_KEY_HERE"
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units=metric"
 
 response = requests.get(url)
